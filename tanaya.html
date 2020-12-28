@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="tanaya.css">
+    
+    <title>Student</title>
+</head>
+<body>
+
+    <h1 class ="h">Hola, <em>Tanaya</em></h1>
+
+    <h2>So, what's the plan today??</h2>
+    <form>
+        <input type="radio" name="code" value="code">
+        <label for="code">Code</label><br>
+        <input type="radio" name="design" value="design">
+        <label for="design">Design</label><br>
+        <input type="radio" name="PoC" value="PoC">
+        <label for="PoC">PoC</label>
+    </form>
+
+    <h2>How to proceed with the plan??</h2>
+    <form>
+        <input type="checkbox" name="Library" value="Library">
+        <label for="Library"> Library</label><br>
+        <input type="checkbox" name="E-Lib" value="E-Lib">
+        <label for="E-Lib"> E-Lib</label><br>
+        <input type="checkbox" name="Manager" value="Manager">
+        <label for="Manager"> Manager</label><br>        
+    </form><br>
+
+    <h2>Comments</h2>
+    <textarea class="ta" placeholder="Please enter your comments"></textarea>
+
+    <button class="log" type="text" onclick="myFunction()">Logout</button>
+
+    <script src ="app.js"></script>
+
+</body>
+</html>

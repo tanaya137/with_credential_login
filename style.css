@@ -1,0 +1,77 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(/img/bg2.jpg);
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.loginbox{
+    width: 320px;
+    height: 410px;
+    background: rgb(243, 223, 237, 0.8);
+    color: rgb(7, 71, 92);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 500;
+    padding: 10px 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.loginbox p{
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.loginbox input{
+    width: 90%;
+    margin-top: none;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid brown;
+    background: transparent;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+}
+
+.loginbox input[type="button"]{
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    background: rgb(26, 235, 26);
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="button"]:hover{
+    cursor: pointer;
+    background: darkgreen;
+    color: white;
+}
+
